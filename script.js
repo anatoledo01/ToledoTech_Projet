@@ -1,4 +1,4 @@
-
+import { exibirQRCode } from './qrcode.js';
     
     
     const menu = document.getElementById("menu")
