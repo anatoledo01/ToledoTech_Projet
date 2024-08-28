@@ -161,3 +161,5 @@ checkoutBtn.addEventListener("click", function(){
     }
     
 })
+
+
