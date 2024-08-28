@@ -226,26 +226,32 @@ id="cart-modal">
         Meu Carrinho
     </h2>
 
-    <div id="cart-items" class="flex flex-col mb-2">
-        <!-- Itens do carrinho aqui -->
-    </div>
-
-    <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
-
-    <p class="font-bold mt-4">Endereço de Entrega: </p>
-
-    <input
-        type="text"
-        placeholder="Digite o endereço de entrega: "
-        id="address"
-        class="w-full border-2 p-1 rounded-none my-1"
-    />
-
-    <p class="text-red-500 hidden" id="address-warn">Digite o endereço completo</p>
-
-    <div class="flex items-center justify-between mt-5 w-full">
-        <button id="close-modal-btn">Fechar</button>
-        <button id="checkout-btn" class="bg-green-600 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+    <div class="bg-white p-5 rounded-md w-full max-w-[90%] md:max-w-[600px] lg:max-w-[800px] max-h-[80vh] overflow-y-auto flex flex-col">
+        <h2 class="text-center font-bold text-2xl mb-2">
+            Meu Carrinho
+        </h2>
+    
+        <div id="cart-items" class="flex flex-col mb-2">
+            <!-- Itens do carrinho aqui -->
+        </div>
+    
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+    
+        <p class="font-bold mt-4">Endereço de Entrega: </p>
+    
+        <input
+            type="text"
+            placeholder="Digite o endereço de entrega: "
+            id="address"
+            class="w-full border-2 p-1 rounded-none my-1"
+        />
+    
+        <p class="text-red-500 hidden" id="address-warn">Digite o endereço completo</p>
+    
+        <div class="flex items-center justify-between mt-5 w-full">
+            <button id="close-modal-btn">Fechar</button>
+            <button id="checkout-btn" class="bg-green-600 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+        </div>
     </div>
 </div>
 </div>
